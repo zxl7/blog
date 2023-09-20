@@ -1,7 +1,9 @@
 <template>
   <main class="app">
     <HeaderNav />
-    <RouterView />
+    <aside class="app-content">
+      <RouterView />
+    </aside>
   </main>
 </template>
 
@@ -17,6 +19,11 @@ import HeaderNav from "./components/HeaderNav.vue"
   min-height: calc(100vh - 48px);
   border-radius: 4px;
   margin: 0 auto;
+}
+.app-content {
+  padding: 40px 10% 0;
+  height: calc(100vh - 193px);
+  overflow: scroll;
 }
 canvas {
   display: block;

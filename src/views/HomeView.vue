@@ -15,14 +15,20 @@ const dataList = ref([
   { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
   { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
   { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
+  { imgUrl: images, title: "标题1", desc: "描述1", updateTime: "2021-10-01", tags: "标签1, 标签2" },
 ])
 </script>
 <style scoped>
 .main-home {
-  margin: 50px 10%;
-
+  flex-wrap: wrap;
   .main-item {
-    width: 25%;
+    width: 30%;
   }
   .item-img {
     width: 100%;
